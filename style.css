@@ -17,6 +17,7 @@ a {
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+
 }
 
 .container {
@@ -32,9 +33,9 @@ body {
 }
 
  .header .container {
-    /*width: 1110px;
+    width: 1110px;
     margin: 0 auto;
-   */
+  
     display: flex;
     justify-content: space-between;
 } 
@@ -95,13 +96,15 @@ body {
 .navbar {
     background: #2f343a;
     color: white;
+    padding: 16px 0 16px 0;
     
-   
+
+    padding: 27 0;
 }
 
 .navbar .container {
-    /* width: 1110px;
-    margin: 0 auto; */
+    width: 1110px;
+    margin: 0 auto;
 
     display: flex;
     align-items: center;
@@ -136,4 +139,66 @@ body {
     
 }
 
+.navbar .container .menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.navbar .container .menu .link{
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+/* main */
+
+.main {
+    background-image: url(./images/home-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 155px 0 220px 0;
+}
+.main .container .block{
+ border: 1px solid gold;
+ width: 920px;
+ margin: 0 auto;
+}
+
+.main .container .block p{
+    padding: 45px 0;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    line-height: 28.48px;
+    width: 777px;
+    margin: 0 auto;
+}
+
+.main .container .block h1{
+    text-align: center;
+    font-size: 64px;
+    color: white;
+    font-family: 'Roboto' serif;
+    font-weight: 700;
+}
+
+
+.main .mouse {
+    text-align: center;
+}
+
+
+.services {
+    background: rgba(57, 63, 71, 1);
+
+
+
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 155px 0 220px 0;
+}
 
